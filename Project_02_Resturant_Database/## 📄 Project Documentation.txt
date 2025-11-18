@@ -1,0 +1,4 @@
+## 📄 Project Documentation
+
+* **[View the Database Blueprints (ERD & Schema)](./Database_Schema_and_ERD.pdf):** Detailed technical diagrams showing the relationships between Customers, Transactions, and Inventory (3NF).
+* **[View the Project Presentation](./Project_Overview_and_Results.pdf):** A summary of business objectives, user interface forms, and final reporting insights.
