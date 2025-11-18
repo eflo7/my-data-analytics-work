@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1">
+  <Nodes>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="StateAbbr" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="StateDesc" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="CityName" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="GeographicLevel" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="DataSource" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="UniqueID" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Measure" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Data_Value_Unit" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="DataValueTypeID" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Data_Value_Type" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Data_Value" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Low_Confidence_Limit" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="High_Confidence_Limit" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Data_Value_Footnote_Symbol" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Data_Value_Footnote" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="PopulationCount" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="GeoLocation" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="CategoryID" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="MeasureId" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="CityFIPS" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="TractFIPS" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+            <Field name="Short_Question_Text" size="254" source="File: C:\Users\etfl8954\Downloads\500_Cities__Local_Data_for_Better_Health__2019_release_20241024.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="114" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>MeasureId</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-24 17:47:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>obesity</Operand>
+              <StartDate>2024-10-24 17:47:25</StartDate>
+              <EndDate>2024-10-24 17:47:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([MeasureId],"obesity")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="210" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>GeoLocation</Field>
+          <ErrorHandling>Ignore</ErrorHandling>
+          <RootName>GeoLocation</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Data_Value_Footnote_Symbol" selected="False" />
+            <SelectField field="Data_Value_Footnote" selected="False" />
+            <SelectField field="GeoLocation" selected="False" />
+            <SelectField field="CategoryID" selected="False" />
+            <SelectField field="TractFIPS" selected="False" />
+            <SelectField field="GeoLocation1" selected="False" />
+            <SelectField field="GeoLocation2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uszips.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="zip" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="lng" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="state_id" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="state_name" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="zcta" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="parent_zcta" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="population" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="density" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="county_fips" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="county_name" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="county_weights" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="county_names_all" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="county_fips_all" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="imprecise" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="military" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+            <Field name="timezone" size="254" source="File: C:\Users\etfl8954\Downloads\simplemaps_uszips_basicv1.86\uszips.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="402" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="city" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CityName" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="678" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="postal_code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="zip" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_city" selected="True" rename="Right_city" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="774" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>categories</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-10-24 18:03:39</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>restaurant</Operand>
+              <StartDate>2024-10-24 18:03:39</StartDate>
+              <EndDate>2024-10-24 18:03:39</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([categories],"restaurant")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="18" width="192" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Idk what to do now
+]]></Text>
+          <Font name="Arial" size="48" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="17" y="5" width="555" height="297" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>ALL TEST data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>ALL TEST data</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="42" y="185" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>300000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ALL_business.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="business_id" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="name" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="address" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="city" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="state" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="postal_code" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="latitude" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="longitude" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="stars" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="review_count" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="is_open" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="categories" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.ByAppointmentOnly" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BusinessAcceptsCreditCards" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BikeParking" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsPriceRange2" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.CoatCheck" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsTakeOut" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsDelivery" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Caters" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.WiFi" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BusinessParking" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.WheelchairAccessible" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.HappyHour" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.OutdoorSeating" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.HasTV" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsReservations" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.DogsAllowed" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Alcohol" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.GoodForKids" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsAttire" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Ambience" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsTableService" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsGoodForGroups" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.DriveThru" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.NoiseLevel" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.GoodForMeal" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BusinessAcceptsBitcoin" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Smoking" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Music" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.GoodForDancing" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.AcceptsInsurance" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BestNights" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BYOB" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Corkage" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.BYOBCorkage" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.HairSpecializesIn" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.Open24Hours" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.RestaurantsCounterService" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.AgesAllowed" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="attributes.DietaryRestrictions" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Monday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Tuesday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Wednesday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Thursday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Friday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Saturday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+                <Field name="hours.Sunday" size="300000" source="File: C:\Users\etfl8954\Downloads\yelp_csv\yelp_csv\business\ALL_business.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="114" y="78" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="186" y="78" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>categories</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-10-24 17:13:50</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>restaurant</Operand>
+                  <StartDate>2024-10-24 17:13:50</StartDate>
+                  <EndDate>2024-10-24 17:13:50</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([categories],"restaurant")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="270" y="65" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>Contains</Operator>
+                <Field>categories</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-10-24 17:16:07</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>health</Operand>
+                  <StartDate>2024-10-24 17:16:07</StartDate>
+                  <EndDate>2024-10-24 17:16:07</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([categories],"health")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+            <Position x="354" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields fieldX="longitude" fieldY="latitude" />
+              <Mode>Double</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="474" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\etfl8954\AppData\Local\Temp\Alteryx\Engine_15060_55ecb0398fac48a2bdc3e6eb66270f2d_\Engine_3068_16d10195d4254066a1223c0a7c597944_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>Latest:CloudMade</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="True" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Project 1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8f950556-e329-41c7-9559-1cb2233d1549" />
+      <Telemetry>
+        <PreviousWorkflowId value="2d8c2efa-0484-4496-b214-fb1083dc8cfc" />
+        <OriginWorkflowId value="56cbd808-733b-419e-beab-74916816168a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
