@@ -100,7 +100,7 @@ This portfolio showcases my technical projects in data analysis. I focus on solv
 
 \## 📬 Contact
 
-\* \*\*Email:\*\* etfl8954@colorado.edu
+\* \*\*Email:\*\* ethanflora.biz@gmail.com
 
 \* \*\*LinkedIn:\*\* https://www.linkedin.com/in/ethanflora/
 
